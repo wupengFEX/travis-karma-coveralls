@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>jquery extend</title>
+</head>
+
+<body>
+	<table id="wp-calendar">
+		<tr>
+			<td>123<a href="#">1</a>123</td>
+		</tr>
+		<tr>
+			<td><a href="#">2</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">3</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">4</a></td>
+		</tr>
+	</table>
+
+
+
+	<div class="y">
+		<div class="x">
+			<div id="a">
+				a<a href="#" id="xx">1231212312312</a>b
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="./src/jqueryExtend.js"></script>
+	<script type="text/javascript">
+		$('#a').htmlUnWrap();
+		// $('#a').textUnWrap();
+	</script>
+</body>
+</html>

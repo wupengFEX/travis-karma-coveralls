@@ -1,0 +1,10 @@
+node_modules/
+test-coverage/
+dist/
+.idea/
+public/
+npm-debug.log
+Thumbs.db
+.DS_Store
+*.swp
+*.gz
