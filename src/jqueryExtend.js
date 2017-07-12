@@ -5,3 +5,7 @@
 
 function aa () {
 }
+
+function bb () {
+
+}
